@@ -107,7 +107,7 @@ html_theme_options = {
     "logo": {
         "alt_text": "RosettaX's logo",
         "text": "RosettaX",
-        "link": "https://rosetta.readthedocs.io/en/master/",
+        "link": "https://martinpdes.github.io/RosettaX/docs/latest/",
     },
     "icon_links": [
         {
