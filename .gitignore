@@ -4,7 +4,7 @@
 
 # Except ...
 !.github
-!PyFinitDiff
+!RosettaX
 !development
 !docs
 !tests

@@ -3,7 +3,7 @@ requires = ["setuptools>=40.8.0", "wheel", "setuptools_scm[toml]>=8.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "Rosetta"
+name = "RosettaX"
 dynamic = ["version"]
 description = "A package for Flow-cytometer calibration."
 license = {file = "LICENSE"}
@@ -31,12 +31,12 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/MartinPdeS/Rosetta"
-Documentation = "https://martinpdes.github.io/Rosetta/"
-Repository = "https://github.com/MartinPdeS/Rosetta.git"
+Homepage = "https://github.com/MartinPdeS/RosettaX"
+Documentation = "https://martinpdes.github.io/RosettaX/"
+Repository = "https://github.com/MartinPdeS/RosettaX.git"
 
 [tool.setuptools_scm]
-write_to = "Rosetta/_version.py"
+write_to = "RosettaX/_version.py"
 version_scheme = "only-version"
 local_scheme = "no-local-version"
 
@@ -69,13 +69,13 @@ addopts = [
     "-v",
     "-rA",
     "-rw",
-    "--cov=Rosetta",
+    "--cov=RosettaX",
     "--cov-report=html",
     "--cov-report=term"
 ]
 
 [tool.coverage.run]
-source = ["Rosetta"]
+source = ["RosettaX"]
 omit = [
     "*/__init__.py",
     "*/_version.py",
